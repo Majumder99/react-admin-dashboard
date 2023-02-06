@@ -6,13 +6,7 @@ import Dashboard from "./scene/dashboard";
 import Team from "./scene/team";
 import Invoices from "./scene/invoices";
 import Contacts from "./scene/contacts";
-// import Bar from "./scene/bar";
-import Form from "./scene/form";
-// import Line from "./scene/line";
-// import Pie from "./scene/pie";
-// import FAQ from "./scene/faq";
-// import Geography from "./scene/geography";
-// import Calendar from "./scene/calendar";
+import FAQ from "./scene/faq";
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {
@@ -32,12 +26,7 @@ const App = () => {
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/invoices" element={<Invoices />} />
                 <Route path="/form" element={<Form />} />
-                {/*<Route path="/bar" element={<Bar />} />
-                <Route path="/pie" element={<Pie />} />
-                <Route path="/line" element={<Line />} />
                 <Route path="/faq" element={<FAQ />} />
-                <Route path="/calendar" element={<Calendar />} />
-                <Route path="/geography" element={<Geography />} /> */}
               </Routes>
             </main>
           </div>
